@@ -1,0 +1,454 @@
+/* GENERAL */
+.page-msg {
+	margin:0px;
+	margin-bottom:10px;
+	margin-top:5px;
+	width:820px;
+	padding-top:5px;
+	display:none;	
+}
+
+.unpublish a {
+	color: #d88b00;	
+}
+
+tr.tr-default .is-default {
+	display: inline;
+}
+
+.is-default {
+	display: none;
+}
+
+tr.tr-default .setdefault {
+	display: none;
+}
+
+tr.tr-default .removedefault {
+	display: inline;
+}
+
+.setdefault {
+	display: inline;
+}
+
+.removedefault {
+	display: none;
+}
+
+/* TABS */
+.dialog-tabs {
+	border-width: 0px;
+}
+
+/* DIALOG */
+.ui-dialog,.ui-widget {
+	font-size: 11px;
+}
+
+.ui-dialog .ajax-loading {
+	float:right;
+	padding:13px;
+	display: none;
+}
+
+.ui-dialog input,
+.ui-dialog textarea {
+	width : 100%;
+}
+
+
+/** VENUE DIALOG ****/
+
+div.venue-search-wrap {
+	overflow-y: auto;
+	height: 285px;    
+}
+div.venue-search-wrap tr {
+	border-bottom : 1px solid #EEEEEE;
+}
+div.venue-search-wrap td {
+	font-size: 11px;
+	padding:3px;
+	vertical-align:top;
+	border-bottom : 1px solid #EEEEEE;
+}
+
+div.venue-search-wrap td a {
+	color: #21759B;	
+	font-weight: bold;
+}
+
+/* POSTER */
+
+.ui-poster .thumbnail-wrap {
+	margin-right:10px;
+	background-color:#EEEEEE;
+	overflow:hidden;	
+}
+
+.ui-poster .library-wrap {
+	margin-top:10px;
+	/*border:1px solid #CCCCCC;*/
+	padding:2px;
+	background-color:#FFFFFF;	
+}
+
+.ui-poster .thumbnail-library {
+	width: 640px;
+	height:500px;
+	overflow:hidden;
+}
+
+/* EVENT */
+.button-h2 {
+	font-style:normal;
+	margin:0 1px;
+	position:relative;
+	top:-3px;
+}
+
+.float {
+	float : left ;
+}
+
+input,select,textfield,.ui-button-text {
+	font-size   : 11px ;
+}
+
+.p-label-normal {
+	font-weight   : 11px ;
+	margin-bottom : 5px;
+	margin-top : 5px; 
+}
+
+.p-label-small {
+	font-size   : 11px; ;
+	margin-bottom : 5px;
+	margin-top    : 5px;
+	color         : #666666; 
+}
+
+.p-checkbox-sml {
+	font-size : 80%;
+	color     : #000000;
+}
+.form-field {
+	margin-bottom : 10px;
+}
+
+#wpbody-content .metabox-holder {
+	padding:0px;
+	padding-bottom:0px;
+}
+
+
+.ui-datepicker,.ui-autocomplete, .ui-selectmenu-menu {
+	font-size: 12px;
+}
+
+.event-add-links {
+	font-style:italic;
+	color:#666666;
+	font-size:10px;"	
+}
+
+.event-general-details select,
+.event-general-details input   {
+	font-size: 14px;
+	width: 100%;
+}
+
+.event-general-details td {
+	padding:2px;
+	vertical-align : top ;
+}
+
+.event-general-details .label {
+	font-size: 11px;
+	color    : #aaaaaa ;
+}
+
+#ticket-information_px input {
+	width: 100%;
+}
+
+div.field-error {
+	font-size   : 10px;
+	color       : red ;
+	font-style  : italic ;
+}
+#wpcontent #radio1 input {
+	margin : 0px;
+	padding: 0px;
+}
+.ui-selectmenu {
+	height:24px;
+}
+
+.event-date {
+	width : 160px;
+}
+
+.event-time {
+	width : 90px;
+}
+
+.remove-thumbnail,
+.edit-thumbnail {
+	float:right;
+	width  :50px;
+	background-color:#FFFFFF;
+	padding:3px;
+	margin:1px;
+	text-align: center;
+	font-size:11px;
+	color : #21759B ;
+	cursor : pointer ;
+} 
+
+.misc-event-section {
+	padding:5px;	
+}
+.misc-event-section td,
+.misc-event-section th,
+.misc-event-section input,select {
+	font-size: 10px;
+}
+
+.misc-event-section input,
+.misc-event-section select {
+	width: 100%;
+}
+
+.misc-event-section td {
+	padding:3px;
+}
+/* */	
+
+div.wp_e-table-layout {
+	
+}
+div.wp_e-table-layout table {
+	border: none ;
+	table-layout : auto;
+	border-collapse: collapse;
+	font-size: 100%;
+}
+div.wp_e-table-layout td,div.wp_e-table-layout th {
+	padding : 5px; 
+	width   : 150px;
+	white-space : no-wrap;
+}
+
+div.wp_e-table-layout td.wp_e-table-layout_row-top {
+	border-top: 1px solid black ;	
+}
+
+div.wp_e-table-layout td.wp_e-table-layout_row-bottom {}
+
+div.wp_e-table-layout td.wp_e-table-layout-status-cancelled {
+	color       : red ;
+	font-weight : bold ;
+}
+
+div.wp_e-table-layout td.wp_e-table-layout-status-soldout {
+	color: gray ;
+	font-weight : bold ;
+}
+
+div.wp_e-table-layout td.wp_e-table-layout-status-active {
+	color: green ;
+	font-weight : bold ;
+}
+
+
+/* DIALOG */
+
+.ui-dialog .div-msg {
+	font-size : 11px;	
+}
+	
+.ui-dialog-content div.dialog-field {
+	display       : block;
+	padding       : 3px;
+	font-size     : 11px; 
+	margin-bottom : 1px;
+}
+
+.ui-dialog-content div.dialog-field label {
+	/*font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;*/
+	display     :block;
+	float       :left;
+	font-style  :italic;
+	font-size   : 11px;
+	line-height :27px;;
+	width       :100px;
+	line-height :27px;
+	margin      :0px;
+	padding     :0px;
+}
+
+.ui-dialog-content div.dialog-field span.input-wrap,
+.ui-dialog-content div.field-error {
+	display     :block;
+	margin-left :100px;
+}
+
+.ui-dialog-content div.field-error {
+	font-size   : 10px;
+	color       : red ;
+	font-style  : italic ;
+}
+
+.ui-dialog-content div.error li {
+	font-size       : 10px;
+}
+
+.ui-dialog-content .form-field label {
+	display : block ;
+}
+
+.form-wrap div.form-field {
+	margin-bottom:0px;
+}
+
+/* GALLERY */
+.wt-gallery {
+
+}
+
+.wt-gallery .wt-thumbs-wrap {
+	width: 660px;
+	/*border: 1px solid #CCCCCC;*/
+	background-color: #FFFFFF;
+	margin-bottom: 5px;
+}
+
+.wt-gallery .wt-thumb-wrap {
+	width:48px;
+	float:left;
+	margin:1px;
+	background-color:#cccccc;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #DDDDDD;
+}
+
+.wt-gallery .wt-thumb-wrap img {
+	width:48px;
+	height:48px;
+}
+
+.wt-gallery .wt-thumb-wrap div { 
+	padding:1px;
+	background-color:#FFFFFF;
+	text-align:center;
+	
+}
+
+.wt-gallery .wt-thumb-wrap div.remove span {
+	color:#21759B;
+	font-size:10px;
+	text-decoration :underline;
+	cursor : pointer;
+}
+
+.wt-gallery .wt-library-wrap {
+	width:660px;
+	overflow: hidden;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+
+.wt-gallery .wt-library-wrap iframe {
+	height:500px;
+	width:660px;
+}
+
+/* VIDEOS TAB */
+.video-filter {
+	margin:5px;
+	margin-left:0px;
+}
+.video-filter select {
+ 	height:2em;
+ 	padding:2px;
+}
+ 
+ .video-filter input {
+ 	width : 200px;
+ }
+ 
+ .video-list {
+ 	border: 1px solid #CCCCCC;
+ 	height:300px;
+ 	overflow:auto;
+ }
+ 
+.video-list .row {
+	border-bottom: 1px solid #CCCCCC;
+	padding:5px; 
+	background-color : #FFFFFF;
+}
+
+.video-list .row .info {
+	color: #666666;
+	font-size: 10px;
+}
+
+.video-list .row-selected {
+	background-color : #FFFEEB; !importent	
+}
+
+.video-list .row .image {
+	float:left;
+	margin-right:5px;
+}
+
+.video-list .row .image img {
+	width : 100;
+	height: 75; 
+}
+
+
+.video-list .row .content{
+	float:left;width:350px;
+}
+
+.video-list .row .selectbutton{
+	float:left;
+	width:90px;
+	margin:10px;
+}
+
+.video-nav {
+	color: #666666;
+	padding:5px;
+	text-align:right;	
+}
+
+.video-nav a {
+	color:#21759B;
+}
+
+.video-display .video-item {
+	float:left;
+	margin:5px;
+	padding:5px;
+	border: 1px solid #CCCCCC;
+	height: 100px;
+	position:relative;'	
+}
+
+.video-display .video-item img {
+	width: 80px;
+	height: 60px;
+	cursor : pointer;	
+}
+
+
+
+
+
+

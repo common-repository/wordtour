@@ -1,0 +1,84 @@
+.simple_overlay { 
+    /* must be initially hidden */ 
+    display:none; 
+     
+    /* place overlay on top of other elements */ 
+    z-index:10000; 
+     
+    /* styling */ 
+    background-color:#333; 
+     
+    width:675px;     
+    min-height:200px; 
+    border:1px solid #666; 
+     
+    /* CSS3 styling for latest browsers */ 
+    -moz-box-shadow:0 0 90px 5px #000; 
+    -webkit-box-shadow: 0 0 90px #000;     
+} 
+ 
+/* close button positioned on upper right corner */ 
+.simple_overlay .close { 
+    background-image:url(overlay/close.png); 
+    position:absolute; 
+    right:-15px; 
+    top:-15px; 
+    cursor:pointer; 
+    height:35px; 
+    width:35px; 
+}
+
+.apple_overlay { 
+    /* initially overlay is hidden */ 
+    display:none; 
+    /* growing background image */ 
+    background-image:url(overlay/white.png); 
+    padding:35px; 
+    /* a little styling */     
+    font-size:11px; 
+    width : 400px;
+} 
+ 
+/* default close button positioned on upper right corner */ 
+.apple_overlay div.close { 
+    background-image:url(overlay/close.png); 
+    position:absolute; right:0px; top:0px; 
+    cursor:pointer; 
+    height:35px; 
+    width:35px; 
+}
+
+
+.facebox { 
+ 	background-color : #FFFFFF;
+    /* overlay is hidden before loading */ 
+    display:none; 
+ 
+    /* standard decorations */ 
+    width:400px;     
+    border:10px solid #666; 
+ 	
+    /* for modern browsers use semi-transparent color on the border. nice! */ 
+    border:10px solid rgba(82, 82, 82, 0.698); 
+ 
+    /* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */ 
+    -moz-border-radius:8px; 
+    -webkit-border-radius:8px; 
+} 
+ 
+.facebox div { 
+    padding:10px; 
+    border:1px solid #3B5998; 
+    background-color:#fff; 
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif 
+} 
+ 
+.facebox h2 { 
+    margin:-11px; 
+    margin-bottom:0px; 
+    color:#fff; 
+    background-color:#6D84B4; 
+    padding:5px 10px; 
+    border:1px solid #3B5998; 
+    font-size:20px; 
+}

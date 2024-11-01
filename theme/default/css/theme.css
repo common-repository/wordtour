@@ -1,0 +1,601 @@
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* end clearfix */
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+.wt-single {}
+
+#wordtour-content .wt-single h1 {
+	color : #b2b2b2;
+	font-size: 24px;
+	font-weight : normal;
+	text-align : left;
+	padding : 10px;
+	padding-left:0px;
+	background-color: #ffffff;
+	border: 0px;
+	margin:0px;
+}
+
+#wordtour-content .wt-single h2 {
+	color : #000000;
+	text-shadow : 0 1px 0 #FFFFFF;
+	font-size: 14px;
+	font-weight : normal;
+	padding : 15px;
+	padding-left:10px;
+	background-color: #e2e2e2;
+	border: 0px;
+	margin:0px;
+}
+
+#wordtour-content .thumbnail-item {
+	float:left;
+	position : relative;
+	margin : 3px;
+}
+
+#wordtour-content .thumbnail-item img {
+	float:left;
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	width:48px;
+	height:48px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+
+
+#wordtour-content td,#wordtour-content th {
+	border-width:0px;
+	background-color : transparent;	
+}
+/* ###################### */
+/* ### event.tpl.php #### */
+/* ###################### */
+#wordtour-content div.wt-panel {
+	margin-top:15px;
+	margin-bottom:10px;	
+}
+
+#wordtour-content div.wt-panel h2 {
+	font-size: 14px;	
+}
+
+#wordtour-content div.wt-panel h2 a {
+	color : #0066CC;	
+}
+
+#wordtour-content .wt-panel .content {
+	padding:10px 10px 10px 0px;
+	border-top: 0px solid #CCCCCC;	
+}
+
+#wordtour-content .wt-panel-map .content {
+	padding-right: 0px; !importent
+}
+
+
+#wordtour-content .wt-single .subtitle a {
+	font-size:10px;
+}
+
+#wordtour-content .wt-single .share {
+	margin:10px 0 10px 0;	
+}
+
+#wordtour-content .wt-single table {
+	border: 0px;	
+}
+
+
+#wordtour-content .wt-single table td,
+#wordtour-content .wt-single table th{
+	border: 0px;
+	text-align : left;
+	background-color : transparent;
+	white-space: nowrap;
+	vertical-align: top;
+	line-height: inherit
+	
+}
+#wordtour-content .wt-single .poster-wrap {
+	float: right;
+	margin-top  :10px;	
+}
+
+#wordtour-content .wt-single .info-wrap {
+	float: left;
+	margin  :10px 0 10px 0;
+	border-width: 0;
+	padding     : 0px;
+	width        : auto;
+}
+#wordtour-content .wt-single .info-wrap td,
+#wordtour-content .wt-single .info-wrap th {
+	font-size: 10px;
+	font-weight: normal;
+	padding:3px 3px 0;
+}
+#wordtour-content .wt-single .info-wrap th {
+	color : #808080;
+	vertical-align : top ;
+}
+#wordtour-content .wt-single .info-wrap td {
+	font-weight: normal;
+}
+/* ###################### */
+/* #### SHARE LINKS ##### */
+/* ###################### */
+#wordtour-content .wt-share-links .wt-share-link {
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:url(../../default/images/share.png);
+	margin:2px;
+	cursor: pointer; 
+}
+
+#wordtour-content .wt-share-links .wt-share-link-like {
+	float:left;
+	margin-left:4px;
+	height:20px;
+	overflow:hidden;
+}
+
+.wt-share-links .facebook {
+	background-position:0px 0px;
+}
+
+.wt-share-links .digg {
+	background-position:-18px 0px;
+}
+
+.wt-share-links .delicious {
+	background-position:-36px 0px;
+}
+
+.wt-share-links .myspace {
+	background-position:-54px 0px;
+}
+
+.wt-share-links .twitter {
+	background-position:-72px 0px;
+}
+
+/* ###################### */
+/* ### flickr.tpl.php ## */
+/* ###################### */
+#wordtour-content .wt-panel-flickr .infobox {
+	border: 1px solid #E2E2E2;
+	padding: 7px;
+	font-size: 10px;
+	color: #AAAAAA;	
+}
+
+#wordtour-content .wt-panel-flickr .machinetag{
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFFEEB;	
+}
+
+
+/* ###################### */
+/* ### gallery.tpl.php ## */
+/* ###################### */
+
+.wt-panel-gallery-overlay { 
+    display:none; 
+    background-color: #FFFFFF; 
+    padding:15px; 
+    font-size:11px; 
+    width : 485px;
+}
+
+.wt-panel-gallery-overlay .nav {
+	margin-top:10px;
+	color:#666666;
+	font-size:10px;	
+}
+
+.wt-panel-gallery-overlay .nav .info-block {
+	float: left;	
+}
+
+.wt-panel-gallery-overlay .nav .close-block {
+	float: right;	
+}
+
+
+
+/* ###################### */
+/* ##### videos.tpl.php ### */
+/* ###################### */
+
+.wt-video-overlay { 
+    display:none; 
+    background-color: #FFFFFF; 
+    padding:10px; 
+    font-size:11px; 
+    width : 485px;
+}
+
+.wt-video-overlay .footer {
+	margin-top:10px;
+	color:#666666;
+	font-size:10px;	
+}
+
+.wt-video-overlay .footer .close {
+	float:right;
+	zoom:1;
+	width:66px;
+	height:22px;
+	cursor:pointer;	
+}
+
+.wt-video-overlay .footer .title {
+	float:left;
+	zoom:1;	
+}
+
+
+/* ###################### */
+/* ##### rsvp.tpl.php ### */
+/* ###################### */
+#wordtour-content .wt-panel-rsvp .rsvp-user {
+	float : left;
+	margin:2px;
+	padding:2px;
+	background-color:#0066CC;
+	color : #FFFFFF;
+	font-size:10px;
+	text-align : center;
+	border: 1px solid #0066CC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+/* ########################## */
+/* ##### comments.tpl.php ### */
+/* ########################## */
+
+#wordtour-content #submit-comment {
+	width: inherit;	
+}
+
+#wordtour-content #the-comment-list .unapproved {
+	background-color : #E6E6E6;
+}
+
+#wordtour-content .wt-panel-comments .fields {
+	padding-bottom:2px;
+	padding-top:2px;
+}
+
+#wordtour-content .wt-panel-comments .fields input,
+#wordtour-content .wt-panel-comments .fields textarea {
+	width:100%;
+}
+/* PRELOADER */
+.wt-preloader {
+	background-color:#0066CC;
+	width:78px;
+	height: 21px;
+	display: none;
+}
+
+/* NAVIGATION */
+#wordtour-content div.wt_pagination {
+	text-align:right;
+	margin:10px 0px 10px 0px;
+}
+
+#wordtour-content div.wt_pagination a {
+	border:1px solid #E2E2E2;
+	margin:0 0.1em;
+	padding:0.2em 0.5em;
+	text-decoration:none;
+}
+
+#wordtour-content div.wt_pagination a.selected {
+	font-weight:bold;
+	background-color: #F2F2F2;
+	color: #000000;
+	
+}
+/* ########################## */
+/* ##### events.tpl.php ### */
+/* ########################## */
+
+
+
+#wordtour-content div.wt-events h1 {
+	color: #000000;	
+	text-align: left;
+	font-size: 30px;
+	padding  : 10px 0 10px 0;
+}
+
+#wordtour-content div.wt-events h2 {
+	color: #000000;	
+	text-align: left;
+	font-size: 14px;
+	margin: 0px;
+	padding  : 10px 0 10px 10px;
+	background-color: #e2e2e2;
+	border-top: 1px solid #d2d2d2;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#wordtour-content div.wt-events-by-date h2 {
+	border-bottom: 1px solid #000000;
+	padding-bottom:5px;
+	margin:10px 0 10px 0;
+}
+
+#wordtour-content div.wt-events-by-date table {
+	border-bottom-width: 0px;	
+}
+
+#wordtour-content .wt-list {
+	line-height: normal;
+	margin-top: 20px;	
+}
+
+#wordtour-content .wt-panel-tour .wt-list{
+	margin-top: 0px;	
+}
+
+#wordtour-content .wt-list table  {
+	width : 100%;
+	border: 0px;
+	border-bottom : 1px solid #e2e2e2;
+}
+#wordtour-content .wt-list table a {
+	font-weight : normal;
+	text-decoration : none;
+}
+
+#wordtour-content .wt-list table th,
+#wordtour-content .wt-list table td {
+	border: 0px;
+	text-align : left;
+	font-weight : normal;
+}
+	
+
+#wordtour-content .wt-list table th {
+	border: 0px;
+	padding:15px;
+	background-color : #f2f2f2;
+	font-weight   : normal ;
+	font-size     : 14px;
+	text-shadow : 0 1px 0 #FFFFFF;
+	border-top : 1px solid #e2e2e2;
+	border-bottom : 1px solid #e2e2e2;
+}
+
+#wordtour-content .wt-list table td {
+	vertical-align : top;
+	padding : 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#wordtour-content .wt-list tr.row-0 th,
+#wordtour-content .wt-list tr.row-0 td {
+	background-color : #ffffff;	
+}
+
+#wordtour-content .wt-list tr.row-1 th,
+#wordtour-content .wt-list tr.row-1 td {
+	background-color : #f2f2f2;
+}
+
+#wordtour-content .wt-list table .activity {
+	font-size : 10px;
+	background-color : transparent; 
+}
+
+#wordtour-content .wt-list .venue,
+#wordtour-content .wt-list .date,
+#wordtour-content .wt-list .artist {
+	font-weight : normal;
+	text-decoration : none;
+}
+
+#wordtour-content .wt-list .poster {
+	border: 0px solid #BBBBBB ;
+}
+
+#wordtour-content .wt-list .poster,
+#wordtour-content  .wt-list .poster img {
+	width : 48px;
+	height : 48px;
+	background-color: #DDDDDD ;
+}
+
+#wordtour-content  .wt-list .venue_info {
+	color : #AAAAAA ;
+	font-size: 10px;
+}
+
+#wordtour-content .wt-list .status {
+	padding : 0px 2px 0px 2px ;
+	text-align : left;
+	font-size  : 11px;
+	font-weight     : normal ;
+}
+
+#wordtour-content .wt-list .soldout,
+#wordtour-content .wt-list .onsale {
+	color           : #000000 ;
+	font-weight     : normal ;
+}
+
+#wordtour-content .wt-list .cancelled {
+	color           : #FF0000 ;
+}
+
+#wordtour-content  .wt-list .buy {
+	color           : #0066CC ;
+}
+
+#wordtour-content .sale {
+	font-size:10px;
+}
+
+#wordtour-content .event-sale .sale-head,
+#wordtour-content .event-sale .sale-date {
+	color : #AAAAAA;
+}
+
+
+/* venue overlay*/
+.venue-overlay { 
+    display:none; 
+    background-image:url(../images/overlay/white.png); 
+    padding:35px; 
+    font-size:11px; 
+    width : 485px;
+} 
+
+.venue-overlay div.close { 
+    background-image:url(../images/overlay/close.png); 
+    position:absolute; right:0px; top:0px; 
+    cursor:pointer; 
+    height:35px; 
+    width:35px; 
+}
+
+#wt-venue-overlay div {
+	margin-bottom : 10px;
+} 
+
+#wt-venue-details {
+	height : 160px;
+	overflow: auto;
+}
+
+#wt-venue-header {
+	 font-weight:bold;
+	 font-size:16px;
+	 margin-bottom:10px;
+}
+
+#wt-venue-details td,
+#wt-venue-details th {
+	padding:3px;
+	text-align : left;
+}
+
+#wt-venue-details th {
+	font-weight : normal;
+	color       :#808080;
+	vertical-align : top;
+}
+
+#wt-venue-map {
+	background-color:#CCC;
+	width:485px;
+	height:165px;
+}
+/* ########################## */
+/* ##### posts.tpl.php ### */
+/* ########################## */
+
+.wt-panel-posts ul {
+	list-style-type: none;
+	margin : 10px;
+	padding:0px;	
+}
+
+.wt-panel-posts h4 a {
+	color: #0066CC;
+}
+
+#content .wt-panel-posts h4 {
+	margin:0px;
+	margin-top:15px;
+}
+
+#content .wt-panel-posts li {
+	margin-bottom:10px;
+}
+
+.wt-panel-posts .entry {
+	margin-top:5px;
+}
+
+/* ########################## */
+/* ##### artist.tpl.php ### */
+/* ########################## */
+
+
+#wordtour-content .wt-artist h1,
+#wordtour-content .wt-tour h1 {
+	padding-left:0px; !importent	
+}
+
+#wordtour-content .wt-tour-dates h2 {
+	margin-bottom: 0px;	
+}
+
+#wordtour-content .wt-artist .wt-tour-dates .wt-panel,
+#wordtour-content .wt-tour .wt-tour-dates .wt-panel {
+	margin-top:0px;	
+}
+
+.wt-panel-artist .links a {
+	display: block;
+	float: left;
+	margin:5px;
+	background-repeat: no-repeat;	
+}
+
+.wt-panel-artist .links div {
+	height: 24px;
+	width: 24px;
+}
+
+.wt-panel-artist .links .facebook { 
+    background-image:url(../images/fb.jpg); 
+}
+
+.wt-panel-artist .links .twitter { 
+    background-image:url(../images/twitter.jpg); 
+}
+
+.wt-panel-artist .links .vimeo { 
+    background-image:url(../images/vimeo.jpg); 
+}
+
+.wt-panel-artist .links .flickr { 
+    background-image:url(../images/flickr.jpg); 
+}
+
+.wt-panel-artist .links .youtube { 
+    background-image:url(../images/youtube.png); 
+}
+
+.wt-panel-artist .links .lastfm { 
+    background-image:url(../images/lastfm.jpg); 
+}
+
+.wt-panel-artist .links .myspace { 
+    background-image:url(../images/myspace.jpg); 
+}
+
+
